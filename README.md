@@ -14,6 +14,7 @@ A basic boilerplate for Nuxt and Prismic.
 - [ ] SliceZone
 - [ ] Layout file
 - [x] Emoji
+- [ ] Imgix image component?
 
 ## Noteworthy Files
 
