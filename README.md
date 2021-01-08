@@ -15,6 +15,28 @@ A basic boilerplate for Nuxt and Prismic.
 - [ ] Layout file
 - [x] Emoji
 
+## Noteworthy Files
+
+```
+.
+├── app/
+│   └── prismic/
+│       └── link-resolver.js
+├── components/
+│   └── SliceZone.vue
+├── custom_types/
+├── layouts/
+│   └── default.vue
+├── pages/
+│   ├── _uid.vue
+│   └── index.vue
+├── plugins/
+│   ├── html-serializer.js
+│   └── seo-handler.js
+└── nuxt.config.js
+
+```
+
 ## Build Setup
 
 ```bash
