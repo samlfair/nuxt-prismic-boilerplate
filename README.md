@@ -1,5 +1,20 @@
 # nuxt-prismic-boilerplate
 
+A basic boilerplate for Nuxt and Prismic.
+
+## Features
+
+- SCSS
+- SEO
+
+## To Do
+
+- [ ] Head templates
+- [ ] Custom types
+- [ ] SliceZone
+- [ ] Layout file
+- [x] Emoji
+
 ## Build Setup
 
 ```bash
@@ -16,14 +31,3 @@ $ npm run start
 # generate static project
 $ npm run generate
 ```
-
-## Features
-
-- scss
-
-## To Do
-
-- [ ] Head templates
-- [ ] Custom types
-- [ ] SliceZone
-- [ ] Layout file

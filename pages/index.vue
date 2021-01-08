@@ -13,8 +13,8 @@ export default {
     return { config }
   },
   head() {
-    return this.$seo(this.$route.path, "Title", "Description", {url: "url", alt: "alt"})
-    // accepts ( path, title, description, image )
+    return this.$seo(this.$route.path, "Title", "Description", {url: "url", alt: "alt"}, "🙂")
+    // accepts ( path, title, description, image, emoji )
   }
 }
 
