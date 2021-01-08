@@ -1,0 +1,24 @@
+{
+  "name": "nuxt-prismic-boilerplate",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "nuxt",
+    "build": "nuxt build",
+    "start": "nuxt start",
+    "generate": "nuxt generate"
+  },
+  "dependencies": {
+    "@prismicio/client": "^4.0.0",
+    "@prismicio/vue": "^2.0.7",
+    "core-js": "^3.6.5",
+    "nuxt": "^2.14.6",
+    "prismic-dom": "^2.2.4"
+  },
+  "devDependencies": {
+    "@nuxtjs/prismic": "^1.2.4",
+    "fibers": "^5.0.0",
+    "sass": "^1.32.2",
+    "sass-loader": "^10.1.0"
+  }
+}
