@@ -20,3 +20,10 @@ $ npm run generate
 ## Features
 
 - scss
+
+## To Do
+
+- [ ] Head templates
+- [ ] Custom types
+- [ ] SliceZone
+- [ ] Layout file
