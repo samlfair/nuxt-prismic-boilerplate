@@ -17,6 +17,7 @@ A basic boilerplate for Nuxt and Prismic. This boilerplate does not currently us
 
 - [x] Emoji favicon
 - [x] Custom types
+- [ ] Configure GitHub template
 - [ ] Finish dynamic route
 - [ ] Finish root route
 - [ ] SliceZone
