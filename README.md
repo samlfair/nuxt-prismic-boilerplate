@@ -16,10 +16,9 @@ A basic boilerplate for Nuxt and Prismic. This boilerplate does not currently us
 ## To Do
 
 - [x] Emoji favicon
+- [x] Custom types
 - [ ] Finish dynamic route
 - [ ] Finish root route
-- [ ] Head templates
-- [ ] Custom types
 - [ ] SliceZone
 - [ ] Layout file
 - [ ] Map custom types
