@@ -1,0 +1,50 @@
+{
+  "Main": {
+    "uid": {
+      "type": "UID",
+      "config": {
+        "label": "URL"
+      }
+    },
+    "title": {
+      "type": "StructuredText",
+      "config": {
+        "label": "Title",
+        "single": "heading1"
+      }
+    },
+    "meta_title": {
+      "type": "StructuredText",
+      "config": {
+        "label": "Meta Title",
+        "single": "heading1"
+      }
+    },
+    "meta_description": {
+      "type": "StructuredText",
+      "config": {
+        "label": "Meta Description",
+        "multi": "paragraph"
+      }
+    },
+    "meta_image": {
+      "type": "Image",
+      "config": {
+        "label": "Meta Image",
+        "constraint": {
+          "width": 1200,
+          "height": 630
+        },
+        "thumbnails": []
+      }
+    },
+    "body": {
+      "type": "Slices",
+      "fieldset": "Slice zone",
+      "config": {
+        "labels": {},
+        "choices": {}
+      }
+    }
+  }
+}

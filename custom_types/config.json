@@ -1,0 +1,35 @@
+{
+  "Main": {
+    "uid": {
+      "type": "UID",
+      "config": {
+        "label": "UID"
+      }
+    },
+    "emoji_favicon": {
+      "type": "Text",
+      "config": {
+        "label": "Emoji Favicon",
+        "placeholder": "🏔"
+      }
+    },
+    "site_title": {
+      "type": "Text",
+      "config": {
+        "label": "Site Title"
+      }
+    },
+    "twitter_handle": {
+      "type": "Text",
+      "config": {
+        "label": "Twitter Handle"
+      }
+    },
+    "site_description": {
+      "type": "Text",
+      "config": {
+        "label": "Site Description"
+      }
+    }
+  }
+}
