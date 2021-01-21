@@ -2,6 +2,10 @@
 
 A basic boilerplate for Nuxt and Prismic. This boilerplate does not currently use Slice Machine, but it will be added in the future.
 
+GitHub repo: https://github.com/samlfair/nuxt-prismic-boilerplate
+
+Prismic repo: https://nuxt-blrplt.prismic.io
+
 ## Features
 
 - Configured with SCSS.
