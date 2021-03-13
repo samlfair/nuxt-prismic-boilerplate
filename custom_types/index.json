@@ -1,0 +1,14 @@
+[
+  {
+    "id": "config",
+    "name": "Config",
+    "repeatable": false,
+    "value": "config.json"
+  },
+  {
+    "id": "page",
+    "name": "Page",
+    "repeatable": true,
+    "value": "page.json"
+  }
+]
