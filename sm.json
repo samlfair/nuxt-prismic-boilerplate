@@ -1,0 +1,4 @@
+{
+  "libraries": ["@/slices", "sams-slcies"],
+  "apiEndpoint": ""
+}
