@@ -6,13 +6,15 @@
     "dev": "nuxt",
     "build": "nuxt build",
     "start": "nuxt start",
-    "generate": "nuxt generate"
+    "generate": "nuxt generate",
+    "slicemachine": "start-slicemachine --port 9999"
   },
   "dependencies": {
     "@prismicio/client": "^4.0.0",
     "@prismicio/vue": "^2.0.7",
     "core-js": "^3.6.5",
     "nuxt": "^2.14.6",
+    "nuxt-sm": "0.0.6",
     "prismic-dom": "^2.2.4",
     "sams-slices": "0.0.2"
   },
@@ -20,6 +22,7 @@
     "@nuxtjs/prismic": "^1.2.4",
     "fibers": "^5.0.0",
     "sass": "^1.32.2",
-    "sass-loader": "^10.1.0"
+    "sass-loader": "^10.1.0",
+    "slice-machine-ui": "0.0.44"
   }
 }
