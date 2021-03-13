@@ -1,4 +1,4 @@
 {
-  "libraries": ["@/slices", "sams-slcies"],
-  "apiEndpoint": ""
+  "libraries": ["@/slices", "sams-slices"],
+  "apiEndpoint": "https://your-repo-name.cdn.prismic.io/api/v2"
 }

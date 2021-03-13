@@ -1,3 +1,5 @@
+const smConfig = require("./sm.json");
+
 export default {
   // Global page headers (https://go.nuxtjs.dev/config-head)
   head: {
@@ -5,8 +7,8 @@ export default {
     meta: [
       { charset: "utf-8" },
       { name: "viewport", content: "width=device-width, initial-scale=1" },
-      { hid: "description", name: "description", content: "" },
-    ],
+      { hid: "description", name: "description", content: "" }
+    ]
   },
 
   // Global CSS (https://go.nuxtjs.dev/config-css)
@@ -23,12 +25,12 @@ export default {
 
   // Settings for prismic.
   prismic: {
-    endpoint: "https://nuxt-blrplt.cdn.prismic.io/api/v2",
+    endpoint: smConfig.apiEndpoint
   },
 
   // Modules (https://go.nuxtjs.dev/config-modules)
   modules: [],
 
   // Build Configuration (https://go.nuxtjs.dev/config-build)
-  build: {},
+  build: {}
 };
