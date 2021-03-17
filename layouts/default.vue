@@ -1,27 +1,25 @@
 <template>
-  <div>
-    <Nuxt />
+  <div class="layout-default-outer">
+    <div class="layout-default-inner">
+      <Nuxt />
+    </div>
   </div>
 </template>
 
-<style>
-html {
-  font-family:
-    'Source Sans Pro',
-    -apple-system,
-    BlinkMacSystemFont,
-    'Segoe UI',
-    Roboto,
-    'Helvetica Neue',
-    Arial,
-    sans-serif;
-  font-size: 16px;
-  word-spacing: 1px;
-  -ms-text-size-adjust: 100%;
-  -webkit-text-size-adjust: 100%;
-  -moz-osx-font-smoothing: grayscale;
-  -webkit-font-smoothing: antialiased;
-  box-sizing: border-box;
+<style lang="scss">
+.layout-default-outer {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica,
+    Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+  font-size: 18px;
+  display: flex;
+  width: 100vw;
+  justify-content: center;
+}
+
+.layout-default-inner {
+  width: 100%;
+  max-width: 900px;
+  padding: 20px 10px;
 }
 
 *,
@@ -31,32 +29,42 @@ html {
   margin: 0;
 }
 
-.button--green {
-  display: inline-block;
-  border-radius: 4px;
-  border: 1px solid #3b8070;
-  color: #3b8070;
-  text-decoration: none;
-  padding: 10px 30px;
+::v-deep {
+  // Style slices in here
+  .slice-post-feed {
+    .post {
+      border: 1px solid black;
+      padding: 1em 1em 0;
+      margin: 1em 0;
+    }
+  }
+  .slice-text-block {
+    & > * {
+      padding-bottom: 1em;
+    }
+  }
+
+  .slice-image-row {
+    .slice-image-row-caption {
+      & > * {
+        margin: 1em 0 1em;
+      }
+      text-align: center;
+      color: grey;
+      font-style: oblique;
+      font-weight: 200;
+      font-size: 0.9rem;
+    }
+    .image {
+      background: lightgrey;
+    }
+  }
 }
 
-.button--green:hover {
-  color: #fff;
-  background-color: #3b8070;
-}
-
-.button--grey {
-  display: inline-block;
-  border-radius: 4px;
-  border: 1px solid #35495e;
-  color: #35495e;
-  text-decoration: none;
-  padding: 10px 30px;
-  margin-left: 15px;
-}
-
-.button--grey:hover {
-  color: #fff;
-  background-color: #35495e;
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
 }
 </style>

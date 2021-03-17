@@ -2,21 +2,18 @@
   {
     "name": "prismic-preview",
     "path": "/preview",
-    "component": "/Users/samlittlefair/Documents/boilerplates-examples/nuxt-prismic-boilerplate/.nuxt-storybook/prismic/pages/preview.vue",
-    "_name": "_e619bdfc"
+    "component": "/Users/samlittlefair/Documents/boilerplates-examples/nuxt-prismic-boilerplate/.nuxt-storybook/prismic/pages/preview.vue"
   },
   {
     "name": "index",
     "path": "/",
     "component": "/Users/samlittlefair/Documents/boilerplates-examples/nuxt-prismic-boilerplate/pages/index.vue",
-    "chunkName": "pages/index",
-    "_name": "_e8effc66"
+    "chunkName": "pages/index"
   },
   {
     "name": "uid",
     "path": "/:uid",
     "component": "/Users/samlittlefair/Documents/boilerplates-examples/nuxt-prismic-boilerplate/pages/_uid.vue",
-    "chunkName": "pages/_uid",
-    "_name": "_68179de6"
+    "chunkName": "pages/_uid"
   }
 ]

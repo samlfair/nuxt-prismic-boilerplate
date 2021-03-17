@@ -32,9 +32,18 @@ export default {
     endpoint: smConfig.apiEndpoint
   },
   // Modules (https://go.nuxtjs.dev/config-modules)
-  modules: [],
-  // Build Configuration (https://go.nuxtjs.dev/config-build)
-  build: {},
+  modules: [
+    [
+      "@nuxtjs/prismic",
+      {
+        endpoint: smConfig.apiEndpoint
+      }
+    ],
+    ["nuxt-sm"]
+  ],
+  build: {
+    transpile: ["vue-slicezone", "nuxt-sm"]
+  },
   storybook: {
     stories: [
       "~/slices/**/*.stories.js",
