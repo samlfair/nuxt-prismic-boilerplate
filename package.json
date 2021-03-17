@@ -7,7 +7,9 @@
     "build": "nuxt build",
     "start": "nuxt start",
     "generate": "nuxt generate",
-    "slicemachine": "start-slicemachine --port 9999"
+    "slicemachine": "start-slicemachine --port 9999",
+    "storybook": "nuxt storybook",
+    "build-storybook": "nuxt storybook build"
   },
   "dependencies": {
     "@prismicio/client": "^4.0.0",
@@ -16,10 +18,12 @@
     "nuxt": "^2.14.6",
     "nuxt-sm": "0.0.6",
     "prismic-dom": "^2.2.4",
-    "sams-slices": "0.0.2"
+    "sams-slices": "0.0.3"
   },
   "devDependencies": {
     "@nuxtjs/prismic": "^1.2.4",
+    "@nuxtjs/storybook": "^3.3.1",
+    "babel-loader": "^8.2.2",
     "fibers": "^5.0.0",
     "sass": "^1.32.2",
     "sass-loader": "^10.1.0",
